@@ -130,7 +130,7 @@ export const ProjectList: ProjectType[] = [
             },
         ],
         description:
-            "College-Eventify is a Next.js-based platform for college clubs to seamlessly register, log in, and post events. It features dynamic event display, image uploads, secure routing, and a responsive, user-friendly interface.",
+            "ItzLinkz is a Next.js-based link management platform that allows users to create and share personalized link pages. It features a user-friendly interface and customizable themes. Ideal for influencers and businesses to manage their online presence.",
         imgUrl: "https://res.cloudinary.com/dtfymz8ko/image/upload/v1746518565/proj2_rmxdhl.jpg",
         videoUrl: "",
         githubUrl: "https://github.com/HardikUpadhyay007/itzlinkz",
