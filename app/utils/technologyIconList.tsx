@@ -8,6 +8,7 @@ import {
     ExpressSVG,
     NextUISVG,
     MongoDBSVG,
+    NextSVG,
 } from "../components/ui/icons";
 
 let color: string = "#9ca3af";
@@ -21,8 +22,8 @@ export const techonologyIconList: iconType[] = [
         icon: <TypescriptSVG color={color} size={35} />,
     },
     {
-        name: "Vue",
-        icon: <VueSVG color={color} size={35} />,
+        name: "NextJS",
+        icon: <NextSVG color={color} size={35} />,
     },
     {
         name: "React",
