@@ -21,6 +21,10 @@ const routes: routeProps[] = [
     label: "Contact",
     url: "/contact",
   },
+  {
+    label: "Blog",
+    url: "/blog",
+  }
 ];
 
 export const NavbarSection = () => {

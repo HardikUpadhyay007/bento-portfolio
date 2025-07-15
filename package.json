@@ -21,6 +21,7 @@
     "@nextui-org/tooltip": "^2.0.21",
     "@vercel/analytics": "^1.1.1",
     "framer-motion": "^10.16.4",
+    "marked": "^16.0.0",
     "motion": "^10.16.4",
     "next": "^14.0.2-canary.25",
     "react": "^18",
@@ -28,6 +29,7 @@
     "sonner": "^1.2.3"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

@@ -1,6 +1,6 @@
 "use client";
 import { Tabs, Tab } from "@nextui-org/tabs";
-import { Home, Contact, Projects } from "../tabSection";
+import { Home, Contact, Projects, Blog } from "../tabSection";
 
 export default function TabMenu() {
   return (
@@ -25,6 +25,13 @@ export default function TabMenu() {
           title="Contact"
         >
           <Contact />
+        </Tab>
+        
+        <Tab
+          key="blog"
+          title="Blog"
+        >
+          <Blog />
         </Tab>
       </Tabs>
     </>
