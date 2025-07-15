@@ -28,7 +28,7 @@ export default function ExperiencePage() {
         Work Experience
       </h1>
       <p className="text-gray-400 mb-12 opacity-0 experience-header experience-mobile-animation">
-        A timeline of my professional journey and the skills I've acquired along the way
+        A timeline of my professional journey and the skills I&apos;ve acquired along the way
       </p>
       
       <div className="pl-3">

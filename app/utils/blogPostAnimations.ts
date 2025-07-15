@@ -51,9 +51,11 @@ const mobileAnimation = () => {
   });
 };
 
-export default {
+const blogPostAnimations = {
   blogPostHeaderAnimation,
   blogPostImageAnimation,
   blogPostContentAnimation,
   mobileAnimation
 };
+
+export default blogPostAnimations;

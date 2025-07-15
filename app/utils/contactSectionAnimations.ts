@@ -65,10 +65,12 @@ const mobileAnimation = () => {
   });
 };
 
-export default {
+const contactSectionAnimations = {
   emailAnimation,
   githubAnimation,
   linkedInAnimation,
   formAnimation,
   mobileAnimation,
 };
+
+export default contactSectionAnimations;

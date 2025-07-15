@@ -71,7 +71,7 @@ const mobileAnimation = () => {
   });
 };
 
-export default {
+const projectsSectionAnimations = {
   titleAnimation,
   videoAnimation,
   descriptionAnimation,
@@ -79,3 +79,5 @@ export default {
   githubUrlAnimation,
   mobileAnimation,
 };
+
+export default projectsSectionAnimations;

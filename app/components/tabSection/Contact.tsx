@@ -21,7 +21,7 @@ export const Contact = () => {
     contactAnimation.githubAnimation();
     contactAnimation.linkedInAnimation();
     contactAnimation.formAnimation();
-  }, []);
+  }, [mq.matches]);
 
   return (
     <div className="grid grid-rows-2 grid-cols-2 gap-5 max-w-2xl mx-auto">
