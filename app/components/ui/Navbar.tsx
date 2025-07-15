@@ -18,13 +18,17 @@ const routes: routeProps[] = [
     url: "/projects",
   },
   {
+    label: "Experience",
+    url: "/experience",
+  },
+  {
     label: "Contact",
     url: "/contact",
   },
-  {
-    label: "Blog",
-    url: "/blog",
-  }
+  // {
+  //   label: "Blog",
+  //   url: "/blog",
+  // }
 ];
 
 export const NavbarSection = () => {

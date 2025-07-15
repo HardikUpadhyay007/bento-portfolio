@@ -17,11 +17,15 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en">
-            <body className={inter.className}>
-                <main className="dark text-foreground bg-background min-h-screen">
+        <html lang="en" className="bg-black">
+            <body className={`${inter.className} bg-black overflow-x-hidden`}>
+                <main className="dark text-foreground bg-background min-h-screen overflow-x-hidden max-w-full">
                     <NavbarSection />
-                    <Providers>{children}</Providers>
+                    <Providers>
+                        <div className="bg-black min-h-screen">
+                            {children}
+                        </div>
+                    </Providers>
                     <Analytics />
                 </main>
             </body>

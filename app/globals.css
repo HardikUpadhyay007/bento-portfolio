@@ -9,6 +9,12 @@
   --bg-blue2: #33c0dd;
 }
 
+html, body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #000;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -24,4 +30,29 @@
 
 .text-blue {
   color: #1684a7;
+}
+
+/* Thin grey scrollbar styling */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444444;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #444444 #111111;
 }

@@ -42,7 +42,7 @@ export default function BlogPost() {
   const contentHtml = marked.parse(post.content);
 
   return (
-    <div className="container mx-auto px-6 py-8">
+    <div className="container mx-auto px-6 py-8 overflow-hidden bg-black">
       <Button as={Link} href="/blog" color="default" className="mb-6 bg-gray-600 text-white opacity-0 blog-post-header blog-post-mobile-animation">
         Back to Blog
       </Button>
@@ -65,7 +65,7 @@ export default function BlogPost() {
       <h1 className="text-4xl font-bold mb-8 opacity-0 blog-post-header blog-post-mobile-animation">{post.title}</h1>
       
       <div 
-        className="blog-content opacity-0 prose prose-invert lg:prose-xl max-w-none blog-post-mobile-animation"
+        className="blog-content opacity-0 prose prose-invert lg:prose-xl max-w-none blog-post-mobile-animation overflow-hidden"
         dangerouslySetInnerHTML={{ __html: contentHtml }}
       />
     </div>

@@ -1,11 +1,11 @@
 "use client";
 import { Tabs, Tab } from "@nextui-org/tabs";
-import { Home, Contact, Projects, Blog } from "../tabSection";
+import { Home, Contact, Projects, Blog, ExperienceSection } from "../tabSection";
 
 export default function TabMenu() {
   return (
-    <>
-      <Tabs className="flex justify-center mt-4 mb-8">
+    <div className="overflow-hidden bg-black w-full">
+      <Tabs className="flex justify-center mt-4 mb-8 overflow-visible">
         <Tab
           key="homme"
           title="Home"
@@ -18,6 +18,13 @@ export default function TabMenu() {
           title="Projects"
         >
           <Projects />
+        </Tab>
+
+        <Tab
+          key="experience"
+          title="Experience"
+        >
+          <ExperienceSection />
         </Tab>
 
         <Tab
@@ -34,6 +41,6 @@ export default function TabMenu() {
           <Blog />
         </Tab>
       </Tabs>
-    </>
+    </div>
   );
 }
