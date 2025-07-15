@@ -14,7 +14,7 @@ export const experienceList: Experience[] = [
       "Integrated headless CMS for seamless content management while maintaining the original site's design"
     ],
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
-    logo: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1700603685/portfolio/tech-innovations_cwmb7p.png"
+    logo: ""
   },
   {
     id: 2,
@@ -29,6 +29,6 @@ export const experienceList: Experience[] = [
       "Optimized for mobile devices and implemented SEO best practices to increase local search visibility"
     ],
     technologies: ["Next.js", "JavaScript", "Tailwind CSS", "Responsive Design"],
-    logo: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1700603685/portfolio/digital-solutions_tqnvbp.png"
+    logo: ""
   }
 ];
