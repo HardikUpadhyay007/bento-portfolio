@@ -1,0 +1,6 @@
+export * from "./education";
+export * from "./iconT";
+export * from "./project";
+export * from "./contactData";
+export * from "./blog";
+export * from "./experience";
