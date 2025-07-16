@@ -86,6 +86,7 @@ export const PostgreSQLSVG = ({ color = "#336791", size = 16 }) => (
     </svg>
 );
 
+
 export const VueSVG = ({ color, size }: IconType) => {
     return (
         <svg
